@@ -116,8 +116,13 @@ tl3.to(".content-2 .text-area-hover h2", {
 const blocks = document.querySelectorAll(".content-rght-part-4");
 const wrapper = document.querySelector(".part-4-wrapper");
 const register = document.querySelector("#demo");
+const early = document.querySelector("#early");
 
 register.addEventListener('click', () => {
+  window.location = "https://iris-lyart-six.vercel.app/auth/login";
+})
+
+early.addEventListener('click', () => {
   window.location = "https://iris-lyart-six.vercel.app/auth/login";
 })
 
